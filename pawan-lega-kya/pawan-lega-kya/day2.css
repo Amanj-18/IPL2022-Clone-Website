@@ -1,0 +1,57 @@
+#p1{
+    font-size: 40px;
+    font-family: cursive;
+    text-shadow: 2px 4px yellowgreen;
+    text-align: center;
+    background-image: linear-gradient(to right , rgb(23, 91, 131),rgb(25, 133, 58));
+}
+#p2{
+    font-size: 30px;
+    font-family: cursive;
+    text-shadow: 2px 2px rgb(30, 90, 255);
+    text-align: center;
+}
+#p3{
+    font-size: 30px;
+    font-family: cursive;
+    text-shadow: 2px 2px rgb(255, 0, 0);
+    text-align: center;   
+}
+#p4{
+    font-size: 30px;
+    font-family: cursive;
+    text-shadow: 2px 4px rgb(30, 255, 0);
+}
+.c2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.c1{
+    border: 3px solid rgb(0, 0, 0);
+    background-image: linear-gradient(to left ,orange , red);
+}
+.c1:hover{
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+#p6{
+    border: 3px solid black;
+}
+#p6:hover{
+    -moz-box-shadow: 0 0 20px rgb(0, 0, 0);
+    -webkit-box-shadow: 0 0 20px rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+#p7{
+    -webkit-transform: rotate(15deg) scale(1.4);
+    transform: rotate(15deg) scale(1.4);
+    -webkit-transition: 3s ease-in-out;
+    transition: .3s ease-in-out;
+
+}
+#p7:hover{
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+}

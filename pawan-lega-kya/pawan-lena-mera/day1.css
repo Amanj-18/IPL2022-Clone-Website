@@ -1,0 +1,152 @@
+*{
+	top: 0;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: rgb(173, 224, 240);
+}
+.c1{
+    background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20px;
+}
+.c2 { align-items: center; }
+#p1{
+    height: 1em;
+    width: 1em;
+}
+.c3{
+    background-color: rgb(224, 247, 123);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+}
+#p2{
+    height: 2em;
+    width: 2em;
+}
+.c4{
+    background-color: rgb(27, 28, 90);
+    color: white;
+}
+.c5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+	flex-wrap: wrap;
+}
+a{
+text-decoration: none;
+    color: white; 
+}
+.c6{
+    align-items: center;
+    color: crimson;
+    font-family:cursive ;   
+    font-size: x-large; 
+}
+#p3{
+  text-align: center;
+}
+#p4{
+  margin-right: 30%;
+}
+#p5{
+  margin-right: 60%;
+}
+.c7{
+	background-color: #000000;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+.item{
+	height: 200px;
+	margin: 1px;
+	padding: 1px;
+	width: 300px;
+	position: relative;
+}
+.item::before{
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left,rgba(255,255,255,0)0% , rgba(255,255,255,.3)100%);
+	background: linear-gradient(to right,rgba(255,255,255,0)0% , rgba(255,255,255,.3)100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+
+}
+.item:hover::before{
+	-webkit-animation: shine .75s;
+	animation: shine .75s;
+}
+@-webkit-keyframes shine{
+	100%{
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100%{
+		left: 125%;
+	}	
+}
+.item:hover img{
+	opacity: .5;
+}
+#item-1{
+	flex-grow: 2;
+	border: green;
+	border-radius: 40%;
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#item-2{
+	flex-grow: 1;
+	border-radius: 40%;
+}
+#item-3{
+	flex-grow: 3;
+	border-radius: 40%;
+}
+#item-4{
+	flex-grow: 3;
+	border-radius: 40%;
+}
+#item-5{
+	flex-grow: 1;
+	border-radius: 40%;
+}
+#item-6{
+	flex-grow: 2;
+	border-radius: 40%;
+}
+#item-7{
+	flex-grow: 1;
+	border-radius: 40%;
+}
+#item-8{
+	flex-grow: 3;
+	border-radius: 40%;
+}
+#item-9{
+	flex-grow: 1;
+	border-radius: 40%;
+}
+#item-10{
+	flex-grow: 3;
+	border-radius: 40%;	
+}

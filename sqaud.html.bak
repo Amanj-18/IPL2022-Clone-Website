@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Title</title>
+</head>
+<style>
+    ul.sub-menu li.activate a {
+        color: #329ED9 !important;
+    }
+
+    .fan .modal-dialog {
+        float: right;
+        right: 70px;
+    }
+
+    .fan .ap-stat-table {
+        width: 100%;
+        background: none;
+    }
+
+    .fan .modal-title {
+        width: 100%;
+        background: none;
+        color: #EF4123;
+        font-weight: 700;
+        font-size: 27px;
+    }
+
+    .fan .nav-item {
+        width: 50%;
+        text-align: center;
+    }
+
+    .fan .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+        color: #fff;
+        background-color: #EF4123;
+    }
+
+    .fan ul {
+        background: linear-gradient(71.81deg, #18184A 25.64%, #19398A 66.22%, #18184A 114.53%);
+        padding: 3px;
+        border-radius: 7px;
+        overflow: hidden;
+    }
+
+    .fan ul a {
+        color: #fff;
+        font-weight: 700;
+    }
+
+    .fan .modal-header .close {
+        padding: 4px 10px;
+        margin: 0;
+        font-size: 37px;
+        font-weight: normal;
+    }
+
+    .ov-card {
+        background: #FFFFFF;
+        border-radius: 4px;
+        border: 2px solid rgba(0 0 0 / 5%);
+        box-shadow: 2px 2px 5px #dee2e6;
+    }
+
+    .ov-card b {
+        color: #18184A;
+    }
+
+    .team-selection {
+        box-shadow: 0px 4.00779px 8.01557px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+    }
+
+    .team-selection>div {
+        width: calc(100% - 27px);
+        text-transform: uppercase;
+        float: left;
+        padding-right: 10px;
+    }
+
+    .team-selection span img {
+        width: 5%;
+    }
+
+    .ov-card .progress {
+        height: 2rem;
+        background: #FFFFFF;
+        box-shadow: 0px 4.00779px 8.01557px rgba(0, 0, 0, 0.25);
+    }
+
+    .ov-card .progress-bar {
+        background: linear-gradient(180deg, #006CB7 0%, #003B7A 100%);
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+    }
+
+    .sticky+.content {
+        padding-top: 102px;
+    }
+
+    .btn-for-search {
+        background: #EF4123;
+        color: #FFFFFF;
+        padding: 4px 23px;
+        border-radius: 5px;
+        width: 100%;
+        font-size: 1rem;
+        font-weight: 800;
+        height: 2.4rem;
+    }
+
+    @media  only screen and (max-width: 550px) {
+        #searchInputForHeader {
+            width: 85%;
+            float: left;
+        }
+
+        #searchButtonForHeader {
+            width: 15%;
+            float: right;
+            overflow: hidden;
+            margin-top: -2.4rem;
+        }
+
+        #searchButtonForHeader img {
+            margin-top: 0.6rem;
+        }
+    }
+</style>
+<body>
+
+<div class="d-flex flex-wrap justify-content-center">
+	<div class="vn-team-logo"><img src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/MI/Logos/Roundbig/MIroundbig.png" alt=""></div>
+	<div class="ap-team-contn col-100 floatLft">
+				<h3>Mumbai <br>Indians</h3>
+		<p>Wankhede Stadium</p>      
+	<div class="w-100 jc-left">
+		<div class="vn-trophyBtnout">
+			<div class="vn-trophyBtn d-flex align-items-center">
+				<div><img src="https://www.iplt20.com/assets/images/vishal/ico-trophy.png" alt=""></div>
+				<div class="trophy-text-align">2013, 2015, 2017, 2019, 2020</div>
+			</div>
+		</div>
+	</div>
+                             
+	</div>
+                    
+
+                     
+</div>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="rohit sharma.png" class="card-img-top" alt="Rohit Sharma">
+      <div class="card-body">
+        <h5 class="card-title">Rohit Sharma</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="suryakumar.png" class="card-img-top" alt="Suryakumar Yadav">
+      <div class="card-body">
+        <h5 class="card-title">Suryakumar Yadav</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="kieron pollard.png" class="card-img-top" alt="Kieron Pollard">
+      <div class="card-body">
+        <h5 class="card-title">Kieron Pollard</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="jasprit bumrah.png" class="card-img-top" alt="Jasprit Bumrah">
+      <div class="card-body">
+        <h5 class="card-title">Jasprit Bumrah</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

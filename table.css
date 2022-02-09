@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-family: 'Lato', sans-serif;
+	background-image: url("beach-shore-blue-water-sea-waves.jpg");
+}
+div h1{
+	color: black;
+	cursor: pointer;
+}
+div h1:hover{
+	color: rgb(255, 0, 0);
+}
+table{
+	border-collapse: collapse;
+}
+table thead tr{
+	background: darkblue;
+	color: #dddddd;
+	font-weight: bolder;
+}
+.header_fixed{
+	margin-top: 130px;
+
+}
+th,td{
+	border: 1px solid #dddddd;
+	padding: 10px 20px;
+}
+
+td img{
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	border: 3px solid rgb(40,41,104);
+	cursor: pointer;
+	justify-content: center;
+}
+tr:nth-child(even){
+	background-color: #fafafd;
+}
+tr:nth-child(even){
+	background-color: #eff1f8;
+}
+tr:hover td{
+	color: aqua;
+	cursor: pointer;
+	background-color: #3A225D;
+}
+td button{
+	border: none;
+	padding: 7px 20px;
+	border-radius: 20px;
+	background-color: black;
+	color: aliceblue;
+	cursor: pointer;
+}
+
+
+::-webkit-scrollbar{
+	width: 6px;
+}
+::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+
+
+td img:hover{
+	box-shadow: 0px 0px 1px 3px rgb(0, 95, 162);
+}
+td img.CSK_color:hover{
+	box-shadow: 0px 0px 1px 3px rgb(250, 246, 3);
+}
+td img.RCB_color:hover{
+	box-shadow: 0px 0px 1px 3px rgb(236,28,36);
+}
+td img.KKR_color:hover{
+	box-shadow: 0px 0px 1px 3px #3A225D;
+}
+td img.MI_color:hover{
+	box-shadow: 0px 0px 1px 3px rgb(0, 95, 162);
+}
+td img.PBK_color:hover{
+	box-shadow: 0px 0px 1px 3px rgb(237, 29, 36);
+}
+td img.RR_color:hover{
+	box-shadow: 0px 0px 1px 3px #e3aaee;
+}
+td img.SRH_color:hover{
+	box-shadow: 0px 0px 1px 3px rgb(247, 167, 33);
+}

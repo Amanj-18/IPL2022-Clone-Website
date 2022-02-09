@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>IPL Teams</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="Map1zu4gm3HIviQadaYpVQwxDBzMPPwCJpkXcGoh" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="og:type" content="website">
+    <meta name="twitter:title" content="IPL Teams - IPLT20.com">
+    <meta name="og:url"  content="https://www.iplt20.com/video/247299/shardul-thakur-s-impactful-3-38?tagNames=ipl-magic,indian-premier-league,ipl-magic">
+    <meta name="og:title"  content="IPL Teams - IPLT20.com">
+    <meta name="og:description"  content="Provides IPLT20 team details and updates.">
+    <meta name="keywords" content="ipl, iplt20, indian premier league, ipl cricket, ipl match, ipl live, ipl score, ipl scorecard, ipl stats, ipl schedule, ipl results, ipl points table, ipl teams, ipl videos, ipl teams, ipl news, BCCI IPL" />  
+    <meta name="og:image"   content="https://resources.platform.iplt20.com/IPL/photo/2021/10/15/a7cc81d8-2eb7-44a6-924f-5aa6d9cc4d47/_AI_1280.JPG">
+    <link rel="shortcut icon" href="https://www.iplt20.com/img/favicon.ico">
+    <link rel="stylesheet" href="https://www.iplt20.com/assets/css/bootstrap-5.1.3.min.css ">
+    <link rel="stylesheet" href="https://www.iplt20.com/assets/css/owlcarousel-2.3.4.min.css ">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,700&display=swap">
+    <!-- <link rel="stylesheet" href="https://www.iplt20.com/assets/css/bootstrap-4.5.2.min.css "> -->
+    <link rel="stylesheet" href="https://www.iplt20.com/slick/slick.css ">
+    <link rel="stylesheet" href="https://www.iplt20.com/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://www.iplt20.com/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.iplt20.com/assets/js/mcustom/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="https://www.iplt20.com/assets/js/flipcount/flipdown.min.css">
+	<link rel="stylesheet" href="https://www.iplt20.com/assets/css/ipl-style-a.min.css">
+    <link rel="stylesheet" href="https://www.iplt20.com/assets/css/ipl-style-n.min.css">
+    <link rel="stylesheet" href="https://www.iplt20.com/assets/css/ipl-style.min.css?v=1.0">
+</head>
+
+<body>  
+<div class="vn-teamswrap col-100 floatLft">
+    <div class="vn-teamsInner">
+        <ul class="vn-teamsInnerWrp">
+			<li style="background: linear-gradient(180deg, #FCCA06 0%, #F25C19 100%); border: 2px solid #F25C19" >
+                <a href="">
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="vn-team-logo"><img src="C:\Users\chhotelal jaiswal\Documents\Anup\IPL-clone-website-main\img\CSK.png" alt=""></div>
+                        <div class="ap-team-contn col-100 floatLft">
+							<h3>Chennai Super <br>Kings</h3>
+                            <p>M. A. Chidambaram Stadium</p>      
+							<div class="w-100 jc-left">
+                        <div class="vn-trophyBtnout">
+                            <div class="vn-trophyBtn d-flex align-items-center">
+                                <div><img src="C:\Users\chhotelal jaiswal\Documents\Anup\IPL-clone-website-main\img\trophy.png" alt=""></div>
+                                <div class="trophy-text-align">2010, 2011, 2018, 2021</div>
+                            </div>
+                        </div>
+							</div>
+						</div>
+                    </div>
+                </a>
+            </li>
+            						
+            <li style="background: linear-gradient(180deg, #0078BC 0%, #17479E 100%); border: 2px solid #17479E" >
+                <a href="">
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="vn-team-logo"><img src="C:\Users\chhotelal jaiswal\Documents\Anup\IPL-clone-website-main\img\DC.png" alt=""></div>
+                        <div class="ap-team-contn col-100 floatLft">
+							<h3>Delhi <br>Capitals</h3>
+                            <p>Arun Jaitley Stadium</p>      
+                        </div>
+                    </div>
+                </a>
+            </li>
+            						
+            <li style="background: linear-gradient(180deg, #3B215D 0%, #552792 100%); border: 2px solid #552792" >
+                <a href="">
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="vn-team-logo"><img src="C:\Users\chhotelal jaiswal\Documents\Anup\IPL-clone-website-main\img\KKR.png" alt=""></div>
+                        <div class="ap-team-contn col-100 floatLft">
+							<h3>Kolkata Knight <br>Riders</h3>
+                            <p>Eden Gardens</p>      
+							<div class="w-100 jc-left">
+                        <div class="vn-trophyBtnout">
+                            <div class="vn-trophyBtn d-flex align-items-center">
+                                <div><img src="C:\Users\chhotelal jaiswal\Documents\Anup\IPL-clone-website-main\img\trophy.png" alt=""></div>
+                                <div class="trophy-text-align">2012, 2014</div>
+                            </div>
+                        </div>
+							</div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            						
+            <li style="background: linear-gradient(180deg, #006CB7 0%, #003B7A 100%); border: 2px solid #003B7A" >
+                <a href="">
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="vn-team-logo"><img src="C:\Users\chhotelal jaiswal\Documents\Anup\IPL-clone-website-main\img\MI.png" alt=""></div>
+                        <div class="ap-team-contn col-100 floatLft">
+							<h3>Mumbai <br>Indians</h3>
+                            <p>Wankhede Stadium</p>      
+							<div class="w-100 jc-left">
+                        <div class="vn-trophyBtnout">
+                            <div class="vn-trophyBtn d-flex align-items-center">
+                                <div><img src="C:\Users\chhotelal jaiswal\Documents\Anup\IPL-clone-website-main\img\trophy.png" alt=""></div>
+                                <div class="trophy-text-align">2013, 2015, 2017, 2019, 2020</div>
+                            </div>
+                        </div>
+							</div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            						
+            <li style="background: linear-gradient(180deg, #D71920 0%, #84171B 100%); border: 2px solid #84171B" >
+                <a href="">
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="vn-team-logo"><img src="C:\Users\chhotelal jaiswal\Documents\Anup\IPL-clone-website-main\img\PBKS.png" alt=""></div>
+                        <div class="ap-team-contn col-100 floatLft">
+							<h3>Punjab <br>Kings</h3>
+                            <p>IS Bindra Stadium</p>      
+                        </div>
+                    </div>
+                </a>
+            </li>
+            						
+            <li style="background: linear-gradient(180deg, #EA1A85 0%, #001D48 100%); border: 2px solid #001D48" >
+                <a href="">
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="vn-team-logo"><img src="C:\Users\chhotelal jaiswal\Documents\Anup\IPL-clone-website-main\img\RR.png" alt=""></div>
+                        <div class="ap-team-contn col-100 floatLft">
+							<h3>Rajasthan <br>Royals</h3>
+                            <p>Sawai Mansingh Stadium</p>      
+							<div class="w-100 jc-left">
+						<div class="vn-trophyBtnout">
+                            <div class="vn-trophyBtn d-flex align-items-center">
+                                <div><img src="C:\Users\chhotelal jaiswal\Documents\Anup\IPL-clone-website-main\img\trophy.png" alt=""></div>
+                                <div class="trophy-text-align">2008</div>
+                            </div>
+                        </div>
+							</div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            						
+            <li style="background: linear-gradient(180deg, #6A6A6A 0%, #1C1C1C 100%); border: 2px solid #1C1C1C" >
+                <a href="">
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="vn-team-logo"><img src="C:\Users\chhotelal jaiswal\Documents\Anup\IPL-clone-website-main\img\RCB.png" alt=""></div>
+                        <div class="ap-team-contn col-100 floatLft">
+							<h3>Royal Challengers <br>Bangalore</h3>
+                            <p>M. Chinnaswamy Stadium</p>      
+                        </div>
+                    </div>
+                </a>
+            </li>
+            						
+            <li style="background: linear-gradient(180deg, #F26522 0%, #ED1A37 100%); border: 2px solid #ED1A37" >
+                <a href="">
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="vn-team-logo"><img src="C:\Users\chhotelal jaiswal\Documents\Anup\IPL-clone-website-main\img\SRH.png" alt=""></div>
+                        <div class="ap-team-contn col-100 floatLft">
+							<h3>Sunrisers <br>Hyderabad</h3>
+                            <p>Rajiv Gandhi Intl. Cricket Stadium</p>      
+							<div class="w-100 jc-left">
+                        <div class="vn-trophyBtnout">
+                            <div class="vn-trophyBtn d-flex align-items-center">
+                                <div><img src="C:\Users\chhotelal jaiswal\Documents\Anup\IPL-clone-website-main\img\trophy.png" alt=""></div>
+                                <div class="trophy-text-align">2016</div>
+                            </div>
+                        </div>
+							</div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+			</ul>
+    </div>
+</div>
+<!--div class="cookie" style="display:none;">
+    <a class="cookie__link" href="http://www.allaboutcookies.org/" title="Learn all about cookies and why sites use them" target="_blank">What are cookies?</a>
+    <br>
+    <p class="cookie__message">We and selected third parties use cookies or similar technologies for technical purposes and, with your consent, for other purposes as specified in the <a target="_blank" href="https://www.iplt20.com/cookie-policy">cookie policy.</a></p>
+    <!-- <button class="cookie__decline btn btn-danger">Decline cookies</button> -->
+    <!--button class="cookie__accept btn btn-primary">Accept cookies</button>
+</div-->
+</body>
+</html>

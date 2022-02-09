@@ -1,0 +1,330 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>IPL Polls</title>
+    <link rel="shortcut icon" href="https://www.iplt20.com/img/favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://www.iplt20.com/assets/css/bootstrap-5.1.3.min.css ">
+    <link rel="stylesheet" href="https://www.iplt20.com/assets/css/owlcarousel-2.3.4.min.css ">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,700&display=swap">
+    
+    <link rel="stylesheet" href="https://www.iplt20.com/slick/slick.css ">
+    <link rel="stylesheet" href="https://www.iplt20.com/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://www.iplt20.com/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.iplt20.com/assets/js/mcustom/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="https://www.iplt20.com/assets/js/flipcount/flipdown.min.css">
+	<link rel="stylesheet" href="https://www.iplt20.com/assets/css/ipl-style-a.min.css">
+    <link rel="stylesheet" href="https://www.iplt20.com/assets/css/ipl-style-n.min.css">
+    <link rel="stylesheet" href="https://www.iplt20.com/assets/css/ipl-style.min.css?v=1.0">
+    
+ </head>
+<style>
+    ul.sub-menu li.activate a {
+        color: #329ED9 !important;
+    }
+
+    .fan .modal-dialog {
+        float: right;
+        right: 70px;
+    }
+
+    .fan .ap-stat-table {
+        width: 100%;
+        background: none;
+    }
+
+    .fan .modal-title {
+        width: 100%;
+        background: none;
+        color: #EF4123;
+        font-weight: 700;
+        font-size: 27px;
+    }
+
+    .fan .nav-item {
+        width: 50%;
+        text-align: center;
+    }
+
+    .fan .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+        color: #fff;
+        background-color: #EF4123;
+    }
+
+    .fan ul {
+        background: linear-gradient(71.81deg, #18184A 25.64%, #19398A 66.22%, #18184A 114.53%);
+        padding: 3px;
+        border-radius: 7px;
+        overflow: hidden;
+    }
+
+    .fan ul a {
+        color: #fff;
+        font-weight: 700;
+    }
+
+    .fan .modal-header .close {
+        padding: 4px 10px;
+        margin: 0;
+        font-size: 37px;
+        font-weight: normal;
+    }
+
+    .ov-card {
+        background: #FFFFFF;
+        border-radius: 4px;
+        border: 2px solid rgba(0 0 0 / 5%);
+        box-shadow: 2px 2px 5px #dee2e6;
+    }
+
+    .ov-card b {
+        color: #18184A;
+    }
+
+    .team-selection {
+        box-shadow: 0px 4.00779px 8.01557px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+    }
+
+    .team-selection>div {
+        width: calc(100% - 27px);
+        text-transform: uppercase;
+        float: left;
+        padding-right: 10px;
+    }
+
+    .team-selection span img {
+        width: 5%;
+    }
+
+    .ov-card .progress {
+        height: 2rem;
+        background: #FFFFFF;
+        box-shadow: 0px 4.00779px 8.01557px rgba(0, 0, 0, 0.25);
+    }
+
+    .ov-card .progress-bar {
+        background: linear-gradient(180deg, #006CB7 0%, #003B7A 100%);
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+    }
+
+    .sticky+.content {
+        padding-top: 102px;
+    }
+
+    .btn-for-search {
+        background: #EF4123;
+        color: #FFFFFF;
+        padding: 4px 23px;
+        border-radius: 5px;
+        width: 100%;
+        font-size: 1rem;
+        font-weight: 800;
+        height: 2.4rem;
+    }
+
+    @media  only screen and (max-width: 550px) {
+        #searchInputForHeader {
+            width: 85%;
+            float: left;
+        }
+
+        #searchButtonForHeader {
+            width: 15%;
+            float: right;
+            overflow: hidden;
+            margin-top: -2.4rem;
+        }
+
+        #searchButtonForHeader img {
+            margin-top: 0.6rem;
+        }
+    }
+</style>
+ <body class="js-body-content">
+    <div style="display: none;" class="loader-main">
+         <div class="loader"></div>
+     </div>
+     <div class="ih-apg-bann title-bg-blue pdlcatch">
+    <div class="ih-apg-bann-in">
+        <div class="ih-apg-tit">
+            <h2>Viewers' Choice</h2>
+            <div class="page-heading__menu">
+                <nav>
+                    <ul class="inline-list  page-heading-menu pl-0 mt-3">
+                        <li class="inline-list__item has-link">
+                            <a class="page-heading-menu__link " href="catches.html">VIVO Perfect Catch of the Season</a>
+                        </li>
+                        <li class="inline-list__item has-link">
+                            <a class="page-heading-menu__link t-green" href="">Emerging Player Award</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="viewers-choice " style="padding: 10px 10px 100px 10px;">
+    <div class="viewers-choice__wrapper">
+        <img class="viewers-choice__logo" src="vivo-logo.png" style="width: 168px;">
+        <h1 class="viewers-choice__title">Perfect Catch of the Season</h1>
+        <p class="viewers-choice__description">A cheque of Rs 10 Lakh, trophy and a phone will be awarded to the player who takes the best catch of the season as selected by a combination of a public vote on <b>iplt20.com</b> and the choice of the television commentators.</p>
+    </div>
+
+<main id="main-content" tabindex="0">
+    <div class="choice-poll wrapper wrapper--small" data-widget="viewers-choice" data-script="ipl_viewers-choice" data-poll="2318" data-initialised="true">
+        <h2 class="choice-poll__title js-title">Results</h2>
+        <ul class="choice-poll__options js-options block-list-3 block-list-2-tab block-list-1-phab u-negative-margin u-hide"></ul>
+        <ul class="choice-poll__options js-results">
+            <li>
+                <div class="choice-poll__result choice-poll-result RR">
+                    <p class="choice-poll-result__name"> Rahul Tewatia </p>
+                    <p class="choice-poll-result__percentage">4%</p>
+                    <div class="choice-poll-result__progress-bar">
+                        <div class="choice-poll-result__progress" style="width: 4%;" data-percentage="4%"></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="choice-poll__result choice-poll-result RR">
+                    <p class="choice-poll-result__name"> Chetan Sakariya </p>
+                    <p class="choice-poll-result__percentage">3%</p>
+                    <div class="choice-poll-result__progress-bar">
+                        <div class="choice-poll-result__progress" style="width: 3%;" data-percentage="3%"></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="choice-poll__result choice-poll-result SRH">
+                    <p class="choice-poll-result__name"> Manish Pandey </p>
+                    <p class="choice-poll-result__percentage">2%</p>
+                    <div class="choice-poll-result__progress-bar">
+                        <div class="choice-poll-result__progress" style="width: 2%;" data-percentage="2%"></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="choice-poll__result choice-poll-result CSK">
+                    <p class="choice-poll-result__name"> Ravindra Jadeja </p>
+                    <p class="choice-poll-result__percentage">60%</p>
+                    <div class="choice-poll-result__progress-bar">
+                        <div class="choice-poll-result__progress" style="width: 60%;" data-percentage="60%"></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="choice-poll__result choice-poll-result KKR">
+                    <p class="choice-poll-result__name"> Rahul Tripathi </p>
+                    <p class="choice-poll-result__percentage">5%</p>
+                    <div class="choice-poll-result__progress-bar">
+                        <div class="choice-poll-result__progress" style="width: 5%;" data-percentage="5%"></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="choice-poll__result choice-poll-result RCB">
+                    <p class="choice-poll-result__name"> Dan Christian </p>
+                    <p class="choice-poll-result__percentage">2%</p>
+                    <div class="choice-poll-result__progress-bar">
+                        <div class="choice-poll-result__progress" style="width: 2%;" data-percentage="2%"></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="choice-poll__result choice-poll-result RCB">
+                    <p class="choice-poll-result__name"> Glenn Maxwell </p>
+                    <p class="choice-poll-result__percentage">3%</p>
+                    <div class="choice-poll-result__progress-bar">
+                        <div class="choice-poll-result__progress" style="width: 3%;" data-percentage="3%"></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="choice-poll__result choice-poll-result RR">
+                    <p class="choice-poll-result__name"> Yashasvi Jaiswal </p>
+                    <p class="choice-poll-result__percentage">1%</p>
+                    <div class="choice-poll-result__progress-bar">
+                        <div class="choice-poll-result__progress" style="width: 1%;" data-percentage="1%"></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="choice-poll__result choice-poll-result PBKS">
+                    <p class="choice-poll-result__name"> Ravi Bishnoi </p>
+                    <p class="choice-poll-result__percentage">5%</p>
+                    <div class="choice-poll-result__progress-bar">
+                        <div class="choice-poll-result__progress" style="width: 5%;" data-percentage="5%"></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="choice-poll__result choice-poll-result CSK">
+                    <p class="choice-poll-result__name"> Faf du Plessis </p>
+                    <p class="choice-poll-result__percentage">6%</p>
+                    <div class="choice-poll-result__progress-bar">
+                        <div class="choice-poll-result__progress" style="width: 6%;" data-percentage="6%"></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="choice-poll__result choice-poll-result PBKS">
+                    <p class="choice-poll-result__name"> Ravi Bishnoi </p>
+                    <p class="choice-poll-result__percentage">3%</p>
+                    <div class="choice-poll-result__progress-bar">
+                        <div class="choice-poll-result__progress" style="width: 3%;" data-percentage="3%"></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="choice-poll__result choice-poll-result PBKS">
+                    <p class="choice-poll-result__name"> Fabian Allen </p>
+                    <p class="choice-poll-result__percentage">1%</p>
+                    <div class="choice-poll-result__progress-bar">
+                        <div class="choice-poll-result__progress" style="width: 1%;" data-percentage="1%"></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="choice-poll__result choice-poll-result SRH">
+                    <p class="choice-poll-result__name"> Kane Williamson </p>
+                    <p class="choice-poll-result__percentage">1%</p>
+                    <div class="choice-poll-result__progress-bar">
+                        <div class="choice-poll-result__progress" style="width: 1%;" data-percentage="1%"></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="choice-poll__result choice-poll-result RCB">
+                    <p class="choice-poll-result__name"> Virat Kohli </p>
+                    <p class="choice-poll-result__percentage">45%</p>
+                    <div class="choice-poll-result__progress-bar">
+                        <div class="choice-poll-result__progress" style="width: 45%;" data-percentage="45%"></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="choice-poll__result choice-poll-result SRH">
+                    <p class="choice-poll-result__name"> Jagadeesha Suchith </p>
+                    <p class="choice-poll-result__percentage">6%</p>
+                    <div class="choice-poll-result__progress-bar">
+                        <div class="choice-poll-result__progress" style="width: 6%;" data-percentage="6%"></div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</main>
+</body>
+</html>

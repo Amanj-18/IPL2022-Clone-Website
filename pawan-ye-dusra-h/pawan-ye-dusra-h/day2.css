@@ -1,0 +1,37 @@
+#p1{
+    font-size: 1000%;
+    font-family: cursive;
+    text-shadow: 2px 4px yellowgreen;
+    text-align: center;
+    background-image: linear-gradient(to right , rgb(23, 91, 131),rgb(25, 133, 58));
+}
+#p2{
+    font-size: 600%;
+    font-family: cursive;
+    text-shadow: 2px 4px rgb(30, 90, 255);
+    text-align: center;
+}
+#p3{
+    font-size: 600%;
+    font-family: cursive;
+    text-shadow: 2px 4px rgb(255, 0, 0);
+    text-align: center;   
+}
+#p4{
+    font-size: 600%;
+    font-family: cursive;
+    text-shadow: 2px 4px rgb(30, 255, 0);
+}
+.c2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.c1{
+    border: 10px solid rgb(0, 0, 0);
+    background-image: linear-gradient(to left ,orange , red);
+}
+#p6{
+    border: 10px solid black;
+}
